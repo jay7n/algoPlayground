@@ -35,7 +35,7 @@ const quickSort = (() => {
 })();
 
 function main() {
-  const a = [1, 9, 8, 5, 0, 2, 6];
+  const a = [1, 9, 8, 5, 0, 1 ,0, 9, 2, 0, 1, 6, 1, 2, 0, 6];
   console.log('before sort:', a);
   quickSort(a);
   console.log('after sort:', a);

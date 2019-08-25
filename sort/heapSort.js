@@ -50,7 +50,7 @@ const heapSort = (() => {
 })();
 
 function main() {
-  const a = [1, 9, 8, 5, 0, 2, 6];
+  const a = [1, 9, 8, 5, 0, 1 ,0, 9, 2, 0, 1, 6, 1, 2, 0, 6];
   log('before sort:', a);
   heapSort(a);
   log('after sort:', a);
